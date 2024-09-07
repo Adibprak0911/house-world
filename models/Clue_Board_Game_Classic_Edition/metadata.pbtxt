@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Clue_Board_Game_Classic_Edition"
+description: "Clue Board Game, Classic Edition"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Hasrbo"
+}
+annotations {
+  key: "gtin"
+  value: "00714043011373"
+}
+annotations {
+  key: "sku"
+  value: "714043011373"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Board Games"
+}
